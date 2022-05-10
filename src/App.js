@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Realtime from './components/Realtime'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <form>
+          <label>first name</label>
+          <input type="text" name="first_name"></input>
+          <label>last name</label>
+          <input type="text" name="last_name"></input>
+          <label>email</label>
+          <input type="text" name="email"></input>
+          <label>password</label>
+          <input type="text" name="password"></input>
+          <label>confirm password</label>
+          <input type="text" name="confirm_password"></input>
+        </form>
+      </div>
     </div>
   );
 }
