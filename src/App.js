@@ -1,12 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import UserForm from './components/UserForm'
+import HookForm from './components/HookForm'
 
 function App() {
   return (
-    <UserForm
-      
-    />
+    <HookForm/>
 
 
 
